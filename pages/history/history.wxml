@@ -1,0 +1,15 @@
+<i-panel title="摇号信息查询">
+<i-row>
+<i-col span="16" i-class="col-class">
+    <i-input value="{{ value1 }}" title="申请编码" autofocus placeholder="请输入申请编码" />
+</i-col>
+<i-col span="8" i-class="col-class">
+  <i-button bind:click="handleFetchCode" inline="true" type="success" size="default">忘记编码</i-button>
+</i-col>
+</i-row>
+</i-panel>
+<i-panel title="数据更新时间:{{lastDataRefreshTime}}"></i-panel>
+<i-panel title="下次摇号时间:{{nextDataRefreshTime}}"></i-panel>
+
+<i-button bind:click="handleCheckResult" type="success">查询结果</i-button>
+<i-button bind:click="handleShare">分享给朋友</i-button>

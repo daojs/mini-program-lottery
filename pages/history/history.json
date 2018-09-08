@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "i-button": "../../dist/button/index",
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index",
+    "i-grid": "../../dist/grid/index",
+    "i-grid-item": "../../dist/grid-item/index",
+    "i-grid-icon": "../../dist/grid-icon/index",
+    "i-grid-label": "../../dist/grid-label/index",
+    "i-input": "../../dist/input/index",
+    "i-panel": "../../dist/panel/index"
+  },
+  "backgroundColor": "#dadada"
+}

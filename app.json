@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/status/status",
+    "pages/history/history",
+    "pages/fetchcode/fetchcode",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "北京客车摇号查询",
+    "navigationBarTextStyle": "black",
+    "backgroundColor":"#dadada"
+  },
+  "tabBar": {
+    "backgroundColor": "white",
+    "selectedColor": "#19be6b",
+    "list": [{
+      "pagePath": "pages/status/status",
+      "iconPath": "assets/search.png",
+      "selectedIconPath": "assets/search.png",
+      "text": "状态查询"
+    }, {
+      "pagePath": "pages/history/history",
+      "iconPath": "assets/favorite.png",
+      "selectedIconPath": "assets/selected-favorite.png",
+      "text": "历史查询"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "assets/news.png",
+      "selectedIconPath": "assets/selected-news.png",
+      "text": "摇号咨询"      
+    }]
+  }
+}

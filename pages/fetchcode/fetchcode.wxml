@@ -1,0 +1,14 @@
+<i-panel title="北京市小客车指标管理系统官方查询">
+<i-row>
+    <i-input value="{{ phoneNumber }}" title="手机号" placeholder="请输入手机号码" />
+</i-row>
+<i-row>
+    <i-input value="{{ password }}" title="密码" placeholder="请输入密码" />
+</i-row>
+<i-row>
+    <i-input value="{{ code }}" title="验证码" placeholder="请输入验证码" />
+</i-row>
+</i-panel>
+
+<i-button bind:click="handleFetchCode" type="success">查询结果</i-button>
+<i-button bind:click="handleGoBack" >返回</i-button>
