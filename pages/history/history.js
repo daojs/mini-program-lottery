@@ -1,15 +1,19 @@
-const app = getApp()
+const app = getApp();
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    person: false,
-    lastDataRefreshTime:'2018-08-26',
-    nextDataRefreshTime: '2018-10-26',   
+    userInfo: [
+      {id: 1234642343, total: 23, multiples: 3},
+      {id: 1234642343, total: 23, multiples: 3},
+      {id: 1234642343, total: 23, multiples: 3},
+      {id: 1234642343, total: 23, multiples: 3},
+      {id: 1234642343, total: 23, multiples: 3},
+    ]
   },
   onLoad: function () {
+  },
+  onShareAppMessage: function () {
+
   },
 })
 
